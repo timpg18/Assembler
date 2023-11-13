@@ -1,0 +1,34 @@
+R-Type
+ADD t6,t1,t2
+SUB s7,t1,t2
+SLT s8,t1,t2
+SLTU sp,t1,t2
+LOOP:
+
+I-Type
+ADDI t0,t2,163
+ANDI t0,t2,153
+ORI t0,t2,-4
+XORI t0,t2,19
+LD t0,16(sp)
+srai t1,t5,29
+
+S-Type
+SD t0,240(t2)
+SW t0,252(t2)
+SB t0,140(t2)
+
+B-Type
+beq   t6,t6,50
+bne   t6,t6,50
+bge   t6,t6,50
+bgeu  t6,t6,50 
+blt   t6,t6,50
+bltu  t6,t6,50
+
+J-Type
+done
+
+U-Type
+lui  t0,40
+auipc t0,50

@@ -1,0 +1,2 @@
+operation            immediate             rd       opcode
+jal            00000000000000000000       00000     1101111

@@ -1,0 +1,11 @@
+operation     funct7     rs2     rs1     funct3     rd     opcode     
+  add         0000000   xxxxx   xxxxx     000      xxxxx   0110011
+  sub         0100000   xxxxx   xxxxx     000      xxxxx   0110011
+  slt         0000000   xxxxx   xxxxx     010      xxxxx   0110011
+  sltu        0000000   xxxxx   xxxxx     011      xxxxx   0110011
+  and         0000000   xxxxx   xxxxx     111      xxxxx   0110011
+  or          0000000   xxxxx   xxxxx     110      xxxxx   0110011
+  xor         0000000   xxxxx   xxxxx     100      xxxxx   0110011
+  sll         0000000   xxxxx   xxxxx     001      xxxxx   0110011
+  srl         0000000   xxxxx   xxxxx     101      xxxxx   0110011
+  sra         0100000   xxxxx   xxxxx     101      xxxxx   0110011

@@ -1,0 +1,3 @@
+sub t0 zero t1
+add t5,x15,t0
+addi x3,x3,104
